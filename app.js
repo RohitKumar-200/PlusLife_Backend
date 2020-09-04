@@ -15,6 +15,8 @@ app.get('/', (req, res)=>{
 });
 const loginRoute = require("./routes/login");
 app.use('/login', loginRoute);
+const registerRoute = require('./routes/register');
+app.use('/register', registerRoute);
 
 dotenv.config();
 //Connect to DB
