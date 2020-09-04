@@ -21,6 +21,8 @@ const profile = require('./routes/profile')
 app.use('/profile', profile);
 const myProfile = require('./routes/myProfile')
 app.use('/myProfile', myProfile);
+const newMeetingRoute = require('./routes/newMeeting');
+app.use('/newMeeting', newMeetingRoute);
 
 dotenv.config();
 //Connect to DB
