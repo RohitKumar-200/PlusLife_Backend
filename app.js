@@ -31,6 +31,10 @@ const changeCurrentTokenNo = require('./routes/changeCurrentTokenNo');
 app.use('/changeCurrentTokenNo', changeCurrentTokenNo);
 const search = require('./routes/search');
 app.use('/search', search);
+const cronJobs = require('./routes/cronJobs');
+app.use('/cronJobs', cronJobs);
+const generateMeetingUrl = require('./routes/generateMeetingUrl');
+app.use('/generateMeetingUrl', generateMeetingUrl);
 
 dotenv.config();
 //Connect to DB
