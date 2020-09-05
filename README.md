@@ -13,6 +13,7 @@ Cerate .env file in root folder
 Make a new collection on your account of cloud.mongodb.com  
 Copy connection string of your mongoDB database, and write DB_CONNECTION=<connection_string> in .env file  
 Also write TOKEN_SECRET=<any_random_alphanumeric_value> in .env file, it will be used to create access token using [jwt](https://jwt.io/introduction/)  
+create an app in zoom copy client id and client secret from there, in .env set ZOOM_CLIENT_ID=<client_id> and ZOOM_CLIENT_SECRET=<client_secret>
 Now you are ready!, open terminal any run  
 ```
   npm start
