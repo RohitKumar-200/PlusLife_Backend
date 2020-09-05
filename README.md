@@ -12,7 +12,7 @@ Go to that directory and open any text editor of your choice
 Cerate .env file in root folder  
 Make a new collection on your account of cloud.mongodb.com  
 Copy connection string of your mongoDB database, and write DB_CONNECTION=<connection_string> in .env file  
-Also write TOKEN_SECRET=<any random alphanumeric value> in .env file, it will be used to create access token using [jwt](https://jwt.io/introduction/)  
+Also write TOKEN_SECRET=<any_random_alphanumeric_value> in .env file, it will be used to create access token using [jwt](https://jwt.io/introduction/)  
 Now you are ready!, open terminal any run  
 ```
   npm start
