@@ -27,6 +27,10 @@ const meetings = require('./routes/meetings');
 app.use('/meetings', meetings);
 const removeMeeting = require('./routes/removeMeeting')
 app.use('/removeMeeting', removeMeeting);
+const changeCurrentTokenNo = require('./routes/changeCurrentTokenNo');
+app.use('/changeCurrentTokenNo', changeCurrentTokenNo);
+const search = require('./routes/search');
+app.use('/search', search);
 
 dotenv.config();
 //Connect to DB
